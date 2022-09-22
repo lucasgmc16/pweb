@@ -1,0 +1,26 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Feijão",
+    "price": 3
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/
+
+###
+PUT http://localhost:4002/products/
+content-type: application/json
+
+{
+    "name": "Feijão",
+    "price": 3
+}
+
+###
+DELETE http://localhost:4002/products/
